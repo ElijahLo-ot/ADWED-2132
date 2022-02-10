@@ -1,0 +1,54 @@
+.p-5{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-white a{
+   text-align: center;
+   color: white;
+   margin: 40px;
+}
+
+.text-white a:hover{
+    text-align: center;
+    color: black;
+    margin: 40px;
+ }
+
+.text-white h1, h4{
+   margin-top: 40px;
+}
+
+
+.card {
+    float: inline-start;
+    margin: 10px;
+}
+.btn {
+    color: blue;
+}
+
+img {
+    width: 255px;
+    height: 250px;
+}
+
+h1 {
+    text-align: center;
+    margin: 2%;
+}
+
+/* images */
+
+.row .card .img{
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    padding-top: 10px;
+}
+.row {
+   padding-right: 100px;
+   padding-left: 100px;
+}
+
+
