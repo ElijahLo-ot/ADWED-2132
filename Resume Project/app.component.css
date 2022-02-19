@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+.container-fluid{
+    text-align: center;
+    padding: 70px;
+}
+body{
+    background-image: linear-gradient(to right top, #4b4b4b, #606060, #767676, #8d8d8d, #a4a4a4, #a4a4a4, #a4a4a4, #a4a4a4, #8d8d8d, #767676, #606060, #4b4b4b);
+    color: #ff9001;
+    font-family: Century Gothic;
+}
+/* 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+ */
+
