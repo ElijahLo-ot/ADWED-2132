@@ -1,0 +1,29 @@
+.text-white a{
+    text-align: center;
+    color: white;
+    margin: 40px;
+    }
+    
+    .text-white a:hover{
+        text-align: center;
+        color: black;
+        margin: 40px;
+    }
+    
+    .text-white h1, h4{
+    margin-top: 40px;
+    }
+    
+.container {
+    font-family: 'Century Gothic';
+}
+
+a{
+    border: none;
+}
+
+.contact{
+    margin: 10px;
+    font-family: Century Gothic;
+    text-align: center;
+}

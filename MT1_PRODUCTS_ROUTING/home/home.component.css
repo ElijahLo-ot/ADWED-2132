@@ -1,0 +1,36 @@
+.card{
+    padding: 10px;
+}
+
+.container .card{
+    display: inline-table;
+    border: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.text-white a{
+    text-align: center;
+    color: white;
+    margin: 40px;
+ }
+ 
+ .text-white a:hover{
+     text-align: center;
+     color: black;
+     margin: 40px;
+  }
+ 
+ .text-white h1, h4{
+    margin-top: 40px;
+ }
+ 
+ 

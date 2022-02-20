@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="p-5 text-center bg-image" style="background-image: url('../assets/helo.jpg'); height: 380px;">
+   <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+     <div class="d-flex justify-content-center">
+       <div class="text-white">
+         <h1 class="mb-3">Product Details</h1>
+         <h2 class="mb-3"> Check for available</h2>
+         <a class="btn btn-outline-light btn-lg" role="button">ELIJAH'S FLATSPOT SHOP</a>
+       </div>
+     </div>
+   </div>
+   </div>  <hr>
+  </div>
+
+<div *ngIf="true"> <h3>The product if available</h3></div>
+<p>true = available</p>
+<p>false = Not available</p>
+
+<div class="container">
+  <table id="customers">
+    <tr>
+     
+      <th>Product ID: </th>
+      <th>Product Name: </th>   
+      <th>Product Description</th>
+      <th>Availablity</th>
+    </tr>
+    <tbody>
+      <tr *ngFor = "let std of Products; trackby:
+      trackByData">
+      
+      <td> {{std.id}} </td>
+      <td> {{std.name}} </td>
+      <td> {{std.description}} </td>
+      <td *ngIf="isLogIn; else isLogOut">{{std.sta}}</td>
+          <ng-template #isLogOut>DayOff</ng-template>
+      </tr>
+  </tbody>
+   
+  </table>
+</div>
+
