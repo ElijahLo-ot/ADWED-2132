@@ -1,0 +1,28 @@
+
+<h1>List From Main</h1>
+<div class="container">
+    <table id="customers">
+      <tr>
+       
+        <th>ID: </th>
+        <th>Name: </th>   
+        <th>Username:</th>
+        <th>Email</th>
+        <th>Website</th>
+        
+      </tr>
+      <tbody>
+        <tr *ngFor = "let std of httpusers; trackby:
+        trackByData">
+        
+        <td> {{std.id}} </td>
+        <td> {{std.name}} </td>
+        <td> {{std.username}} </td>
+        <td> {{std.email}} </td>
+        <td> {{std.website}} </td>
+
+        </tr>
+    </tbody>
+     
+    </table>
+  </div>

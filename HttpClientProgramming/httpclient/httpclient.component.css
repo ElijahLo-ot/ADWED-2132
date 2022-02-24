@@ -1,0 +1,44 @@
+div, p, h3, h1{
+    text-align: center;
+    font-family: century gothic;
+    font-weight: bold;
+}
+.text-white a{
+    text-align: center;
+    color: white;
+    margin: 40px;
+    }
+    
+    .text-white a:hover{
+        text-align: center;
+        color: black;
+        margin: 40px;
+    }
+    
+    .text-white h1, h4{
+    margin-top: 40px;
+    }
+    /* table css */
+    #customers {
+        font-family: Century Gothic;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #customers td, #customers th {
+        border: 1px solid rgb(189, 153, 153);
+        padding: 15px;
+      }
+      
+      #customers tr:nth-child(even){background-color: #be8080;}
+      #customers tr:nth-child(odd){background-color: #e4c0c0;}
+
+
+      
+      #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #463a3a;
+        color: rgb(255, 255, 255);
+      }
