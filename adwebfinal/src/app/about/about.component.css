@@ -1,0 +1,21 @@
+.follow a
+{
+    padding: 10px;
+    color: #000000;
+    font-weight: bold;
+}
+@media screen and (max-width:600px)
+{
+    .follow a
+    {
+        padding: 5px;
+    }
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h1{
+    font-weight: bold;
+}
